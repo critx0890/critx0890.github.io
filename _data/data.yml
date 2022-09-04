@@ -1,0 +1,159 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Steve Tran
+    tagline: Full Stack Web Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: critx0890@gmail.com
+    timezone: GMT+7
+    citizenship: Vietnamese
+    # website: blog.webjeda.com #do not add http://
+    github: critx0890
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    # twitter: '@thelazylog'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Vietnamese
+          level: Native
+
+        - idiom: English
+          level: Fluent
+
+        - idiom: Japanese
+          level: Basic
+
+    interests:
+      title: Interests
+      info:
+        - item: Soccer
+          link:
+
+        - item: Puzzle
+          link:
+
+        - item: Languages
+          link:
+
+career-profile:
+    title: Introduction
+    summary: |
+      I am a professional software engineer with more than 8 years of experience. I have been building web applications for years and taking many roles: developer, tech lead, manager, etc. My current areas of expertise are Web development using Ruby on Rails or NodeJS.
+
+      I have also found interest in some trending technologies like Web3/Blockchain, Deep Learning.
+
+      I am a strong problem solver. I love challenges and I am willing to overcome them to get things done.
+
+      **Web development skills**:
+        + Ruby on Rails, NodeJS
+        + E-Commerce: Spree, Shopify, Sharetribe
+        + Ruby gems: Devise, Carrierwave, Paperclip, HAML, Capistrano, Resque, Sidekiq, Pundit and more
+        + TDD and Unit Testing with Cucumber, RSpec, Cabybara, FactoryBot
+        + Front-end technologies: AJAX, CSS3, HTML5, jQuery, BackboneJS, AngularJS, ReactJS, TypeScript
+        + Mobile-first responsive design: Bootstrap, Tailwind, MaterialUI
+        + Relational and NoSQL databases: MySQL, PostgreSQL, MongoDB, Redis
+        + Payment service integration: Paypal, Stripe, Checkout, Inpendium, Braintree, Authorize.net
+        + Application Monitoring: NewRelic, BugSnag, Errbit, Rollbar
+        + Deployment platforms: Heroku, AWS, Rackspace, DigitalOcean, VPS, EngineYard
+        + Amazon Web Services: CloudFront, Elastic Load Balancer, RDS, ElasticCache, ElasticBeanstalk, EC2, Route53, Kinesis, Lambda, etc
+        + Continuous Integration Deployment: Tddium, Travis, CircleCI
+        + Social network and third-party integration: Google Maps, Google API, Facebook, Slack, Twitter
+education:
+    title: Education
+    info:
+      - degree: Bsc in Computer Science
+        university: Japan Advanced Institute of Science and Technology (JAIST)
+        time: 2015 - 2017
+      - degree: Msc in Computer Science
+        university: University of Information Science
+        time: 2008 - 2012
+experiences:
+    title: Experiences
+    info:
+      - role: Full-stack Web Developer (Freelancer)
+        time: 2020 - Present
+        company: Upwork
+        details: |
+            - Developing new features (front-end to back-end)
+            - Integrating with third-party API services (Shopify, Ecwid, Lightspeed)
+            - Monitoring and Tuning performance
+            - Fixing issues
+      - role: Senior Web Developer
+        time: 2017 - 2020
+        company: NUS Technology
+        details: |
+            - Leading development team to build scalable projects
+            - Building high performant web applications
+            - Building Shopify apps
+            - Developing API for mobile/front-end apps
+            - Configuring servers
+            - Monitoring and optimizing applications
+projects:
+    title: Projects
+    intro: >
+      Some notable projects I have worked on
+    assignments:
+      - title: HelpfulCrowd
+        link: "https://helpfulcrowd.com"
+        tagline: "A SaaS that help collecting reviews from customers. It can be integrated easily with popular platforms such as Shopify, Ecwid, Lightspeed"
+
+      - title: Jooto
+        link: "https://app.jooto.com"
+        tagline: "Jooto is a free online task/project management tool for both personal and business use. It was built mainly for Japanese market."
+
+      - title: FountainGifts
+        link: "https://fountaingifts.com"
+        tagline: "Fountain was created to elevate the gift-giving (and receiving) experience. This online and mobile friendly platform allows consumers and businesses to send handwritten cards and special gifts."
+
+      - title: GetMyID
+        link: "https://getmyid.com"
+        tagline: "MyID is a comprehensive medical ID solution that provides an easy way to access, store, and manage your health information. "
+
+      - title: Simplero
+        link: "https://simplero.com"
+        tagline: "Simplero is a platform which helps knowledge creators build a coaching, course, educational or consulting business they love by simplifying their tech with one simple click."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Ruby on Rails
+        level: 100%
+
+      - name: NodeJS
+        level: 95%
+
+      - name: Javascript & jQuery
+        level: 100%
+
+      - name: React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: VueJS
+        level: 85%
+
+      - name: MySQL & Postgres
+        level: 95%
+
+      - name: AWS
+        level: 93%
+
+footer: >
+    Last updated at Sep 2022
