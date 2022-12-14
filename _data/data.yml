@@ -75,10 +75,10 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: Bsc in Computer Science
+      - degree: Msc in Computer Science
         university: Japan Advanced Institute of Science and Technology (JAIST)
         time: 2015 - 2017
-      - degree: Msc in Computer Science
+      - degree: Bsc in Computer Science
         university: University of Information Science
         time: 2008 - 2012
 experiences:
